@@ -1,7 +1,7 @@
 const webpack = require('webpack') // referência para o webpack
 
 module.exports = { // Exporta a configuração
-    entry: './ex/index.js', // Ponto de entrada
+    entry: './ex/index.jsx', // Ponto de entrada
     output: { // Arquivo de saída
         path: __dirname + '/public', // Diretório atual + /public
         filename: './bundle.js' // Nome do arquivo de saída
